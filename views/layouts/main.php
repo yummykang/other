@@ -63,11 +63,11 @@ AppAsset::register($this);
         ]) ?>
         <?= $content ?>
     </div>
-    <?php if(isset($this->blocks['blockADV'])) { ?>
-        <?php echo $this->blocks['blockADV'] ?>
-    <?php } else { ?>
-        … default content if missing block1 attribute
-    <?php } ?>
+<!--    --><?php //if(isset($this->blocks['blockADV'])) { ?>
+<!--        --><?php //echo $this->blocks['blockADV'] ?>
+<!--    --><?php //} else { ?>
+<!--        … default content if missing block1 attribute-->
+<!--    --><?php //} ?>
 </div>
 
 <footer class="footer">
